@@ -1,0 +1,60 @@
+.font-effect-neon{
+	 font-family: 'Courier New', serif;
+  font-size: 30px;
+	color: white;
+	text-align: center;
+	padding: 100px;
+	font-size: 35px;
+}
+
+body{
+	background-image:url("https://www.accord.org.za/wp-content/uploads/2021/01/mathew-schwartz-7YiZKj9A3DM-unsplash.jpg")
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong');
+
+.firstButton{
+
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Audiowide', sans-serif;
+	color: white;
+	 color: white;
+  background-color: none;
+  border: 5px solid transparent;
+  transition: .2s ease;
+  border-radius: 50px;
+
+  text-align: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px 20px;
+      font: 50px $button-font;
+      font-weight: 1000;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      margin: 1em;
+
+}
+
+.firstButton:hover{
+	color: blue;
+	transform: scale(1.5);
+}
+
+footer{
+	padding-bottom: 5%;
+	color: white;
+	padding-top: 10%;
+	text-align: center;
+
+}

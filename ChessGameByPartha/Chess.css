@@ -1,0 +1,86 @@
+
+.center{
+  font-size: 80px;
+  /* make our h1 tag larger */
+  font-family: Luminari,fantasy;
+  /* choosing our font */
+  background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+  text-align: center;
+
+   background-clip: text;
+  /*add this line, it defines how far the background should extend within an element, here we set it to text */
+  -webkit-background-clip: text;
+  /* add this line, for browsers compatibility */
+  -webkit-text-fill-color: transparent;
+
+   animation: wave 6000ms ease alternate infinite;
+  /* add this line */
+  transition: all 0.4s ease;
+  /* add this line */
+
+
+  
+
+
+
+}
+
+@keyframes wave {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 50vw 10px;
+        }
+
+ }
+
+
+ body{
+ 	background-image: url("https://www.accord.org.za/wp-content/uploads/2021/01/mathew-schwartz-7YiZKj9A3DM-unsplash.jpg");
+ 	background-size: auto;
+ }
+
+ .my-button {
+ color: white;
+  background-color: none;
+  border: 5px solid transparent;
+  transition: .2s ease;
+  border-radius: 50px;
+
+  text-align: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 15px 20px;
+      font: 50px $button-font;
+      font-weight: 1000;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      text-align: center;
+      margin: 1em;
+       
+}
+
+.my-button:hover {
+  color: $whitesmoke;
+  transform: scale(1.1);
+  border: 5px solid $blue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.20), 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+
+}
+
+.header{
+  text-align: center;
+  font-size: 100px;
+  background-color: white;
+}
+
+
+
